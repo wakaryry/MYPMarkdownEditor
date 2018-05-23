@@ -1,0 +1,22 @@
+{
+  "name": "MYPMarkdownEditor",
+  "version": "0.1.0",
+  "summary": "A short description of MYPMarkdownEditor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mayuping321@163.com/MYPMarkdownEditor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mayuping321@163.com": "redoume@163.com"
+  },
+  "source": {
+    "git": "https://github.com/mayuping321@163.com/MYPMarkdownEditor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MYPMarkdownEditor/Classes/**/*"
+}
