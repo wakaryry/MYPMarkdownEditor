@@ -16,6 +16,7 @@
 		A27311AD827CBDEBA864AE2B1761EE37 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE898B6666FD0C66E72134CF0FD6C12 /* ReplaceMe.swift */; };
 		A9DE7E3492A69A6ECC2F634E67C71DE1 /* MYPMarkdownEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 61D56ADDAC5412CC33F01CC164280C9E /* MYPMarkdownEditor.bundle */; };
 		E0BFF914C67943ACE1CDAA076EDEF111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E9B3F29820B9772D0029C45C /* EditorMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B3F29720B9772D0029C45C /* EditorMedia.xcassets */; };
 		EF8BD3393204C7F5F2893AFAB6C593CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F887AEE78B7EED208A418C86CF370A58 /* Pods-MYPMarkdownEditor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 210E014094DEDD6B39778C03C6EB5D45 /* Pods-MYPMarkdownEditor_Example-dummy.m */; };
 		F9BA58E97ED4605EC3B17B02360D6897 /* Pods-MYPMarkdownEditor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 808199DCDECDE135EA57C8821A9CD9E7 /* Pods-MYPMarkdownEditor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,7 +49,7 @@
 /* Begin PBXFileReference section */
 		05872CBF7D1D2DCEAA2112773C525CC7 /* MYPMarkdownEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYPMarkdownEditor-umbrella.h"; sourceTree = "<group>"; };
 		061A895A2E4933D0ECD680A12B5CFEF1 /* Pods-MYPMarkdownEditor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYPMarkdownEditor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0A911C5C0ECC76FE154984586D8FC5B1 /* Pods_MYPMarkdownEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYPMarkdownEditor_Example.framework; path = "Pods-MYPMarkdownEditor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A911C5C0ECC76FE154984586D8FC5B1 /* Pods_MYPMarkdownEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYPMarkdownEditor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A8773C41D1F06D147D7E7BEF16616A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE898B6666FD0C66E72134CF0FD6C12 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MYPMarkdownEditor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1CB5CC5FDE2A852C49E7A452CF730168 /* Pods-MYPMarkdownEditor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYPMarkdownEditor_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -58,11 +59,11 @@
 		483A6AC063667C04CD7A279ABC936D24 /* Pods-MYPMarkdownEditor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYPMarkdownEditor_Example-resources.sh"; sourceTree = "<group>"; };
 		585758C213F8749351092A0C7D75F88C /* MYPMarkdownEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYPMarkdownEditor-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		61D56ADDAC5412CC33F01CC164280C9E /* MYPMarkdownEditor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MYPMarkdownEditor.bundle; path = "MYPMarkdownEditor-MYPMarkdownEditor.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D56ADDAC5412CC33F01CC164280C9E /* MYPMarkdownEditor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYPMarkdownEditor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		626043FF19E232E0BBA46285E3E4427C /* Pods-MYPMarkdownEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdownEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		677F6DC1B450455A1EF553E64BA6459F /* Pods-MYPMarkdownEditor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYPMarkdownEditor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6B97698C83DC951F8ABF6CFEAE6569FB /* MYPMarkdownEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MYPMarkdownEditor.framework; path = MYPMarkdownEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7443CB8A961BA84430C0B1DDCD2D71B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6B97698C83DC951F8ABF6CFEAE6569FB /* MYPMarkdownEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MYPMarkdownEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7443CB8A961BA84430C0B1DDCD2D71B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		773A557F2A82F18437ADF5A05BB56B16 /* Pods-MYPMarkdownEditor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYPMarkdownEditor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		808199DCDECDE135EA57C8821A9CD9E7 /* Pods-MYPMarkdownEditor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYPMarkdownEditor_Example-umbrella.h"; sourceTree = "<group>"; };
 		8882B9210333347A4D493086E5EC3439 /* MYPMarkdownEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYPMarkdownEditor.xcconfig; sourceTree = "<group>"; };
@@ -70,8 +71,8 @@
 		8D883EAE28A157E0E8255389FC32D1E7 /* ResourceBundle-MYPMarkdownEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MYPMarkdownEditor-Info.plist"; sourceTree = "<group>"; };
 		8E972D0281718A600A9A38FD4D79067C /* Pods-MYPMarkdownEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdownEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		90E8C9824500ABB8472566307ACC4574 /* Pods-MYPMarkdownEditor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYPMarkdownEditor_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DDF19715CF2324DB3F9B8AFC210B2C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDF19715CF2324DB3F9B8AFC210B2C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9EAD1C2C78EC36554C9C6976698AB9F8 /* MYPMarkdownEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYPMarkdownEditor.modulemap; sourceTree = "<group>"; };
 		9EE8D7CEF051F20E204D8EAF3C018262 /* MYPFormatView.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = MYPFormatView.storyboard; path = MYPMarkdownEditor/Assets/MYPFormatView.storyboard; sourceTree = "<group>"; };
 		A01548027AE581535B9713D3A4278969 /* Pods-MYPMarkdownEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdownEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,10 +81,11 @@
 		C7707E353EF9AD1F6D55434C3B2C9992 /* MYPMarkdownEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYPMarkdownEditor-prefix.pch"; sourceTree = "<group>"; };
 		CEEA8866CC6B5978AB822461D2038425 /* Pods-MYPMarkdownEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdownEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF394B3B1D574D168D8795F55DDD3596 /* Pods-MYPMarkdownEditor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYPMarkdownEditor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E9B3F29720B9772D0029C45C /* EditorMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = EditorMedia.xcassets; path = MYPMarkdownEditor/Assets/EditorMedia.xcassets; sourceTree = "<group>"; };
 		EA26800524226C8ADA11F57932335EB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB0A411D85F97D2C74A21E0B3637CAD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6C8C4F2246E50906B630F3C141D1321 /* Pods_MYPMarkdownEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYPMarkdownEditor_Tests.framework; path = "Pods-MYPMarkdownEditor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F828222E9150BE2BFBCF95F4C0F263E2 /* MYPMarkdownEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MYPMarkdownEditor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F6C8C4F2246E50906B630F3C141D1321 /* Pods_MYPMarkdownEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYPMarkdownEditor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F828222E9150BE2BFBCF95F4C0F263E2 /* MYPMarkdownEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MYPMarkdownEditor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				9EE8D7CEF051F20E204D8EAF3C018262 /* MYPFormatView.storyboard */,
+				E9B3F29720B9772D0029C45C /* EditorMedia.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9DE7E3492A69A6ECC2F634E67C71DE1 /* MYPMarkdownEditor.bundle in Resources */,
+				E9B3F29820B9772D0029C45C /* EditorMedia.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
