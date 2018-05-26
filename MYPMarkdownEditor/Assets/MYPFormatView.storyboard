@@ -33,7 +33,7 @@
                                             <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="keyboard_detail_icon" translatesAutoresizingMaskIntoConstraints="NO" id="PIA-Gp-4pf">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myp_detailDown" highlightedImage="myp_detailDown_highlight" translatesAutoresizingMaskIntoConstraints="NO" id="PIA-Gp-4pf">
                                             <rect key="frame" x="341.5" y="25" width="13.5" height="8"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="8" id="IhO-Zg-s0y"/>
@@ -186,45 +186,52 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhe-Bi-hzG">
-                                            <rect key="frame" x="24" y="4" width="106.5" height="51.5"/>
+                                            <rect key="frame" x="24" y="4" width="82" height="52"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="18" maxX="0.0" maxY="18"/>
                                             <state key="normal" image="myp_bold"/>
                                             <state key="selected" image="b_select_icon"/>
                                             <state key="highlighted" image="b_select_icon"/>
                                         </button>
                                         <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxO-N5-w3F">
-                                            <rect key="frame" x="134" y="4" width="106.5" height="51.5"/>
+                                            <rect key="frame" x="106" y="4" width="81.5" height="52"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="18" maxX="0.0" maxY="18"/>
                                             <state key="normal" image="myp_italic"/>
                                             <state key="selected" image="i_select_icon"/>
                                         </button>
                                         <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0s4-ev-nnB">
-                                            <rect key="frame" x="244.5" y="4" width="106.5" height="51.5"/>
+                                            <rect key="frame" x="187.5" y="4" width="82" height="52"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="18" maxX="0.0" maxY="18"/>
                                             <state key="normal" image="myp_underline"/>
                                             <state key="selected" image="under_select_icon"/>
                                             <state key="highlighted" image="b_select_icon"/>
                                         </button>
+                                        <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYD-Tg-shQ">
+                                            <rect key="frame" x="269.5" y="4" width="81.5" height="52"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="18" maxX="0.0" maxY="18"/>
+                                            <state key="normal" image="myp_strikethrough"/>
+                                            <state key="selected" image="under_select_icon"/>
+                                            <state key="highlighted" image="b_select_icon"/>
+                                        </button>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="0s4-ev-nnB" secondAttribute="bottom" constant="4" id="1K9-Zz-AYp"/>
-                                        <constraint firstItem="CxO-N5-w3F" firstAttribute="height" secondItem="Yhe-Bi-hzG" secondAttribute="height" id="56N-Kq-HSL"/>
-                                        <constraint firstItem="Yhe-Bi-hzG" firstAttribute="leading" secondItem="4rZ-dE-as9" secondAttribute="leading" constant="24" id="9WC-oc-Te0"/>
-                                        <constraint firstItem="Yhe-Bi-hzG" firstAttribute="top" secondItem="4rZ-dE-as9" secondAttribute="top" constant="4" id="EKK-hO-DhM"/>
-                                        <constraint firstItem="CxO-N5-w3F" firstAttribute="leading" secondItem="Yhe-Bi-hzG" secondAttribute="trailing" constant="4" id="FWz-Rn-6Zy"/>
-                                        <constraint firstItem="CxO-N5-w3F" firstAttribute="centerY" secondItem="4rZ-dE-as9" secondAttribute="centerY" id="IWm-pQ-Ins"/>
-                                        <constraint firstItem="CxO-N5-w3F" firstAttribute="width" secondItem="Yhe-Bi-hzG" secondAttribute="width" id="OWK-Ro-fql"/>
-                                        <constraint firstItem="0s4-ev-nnB" firstAttribute="centerY" secondItem="4rZ-dE-as9" secondAttribute="centerY" id="Q11-ft-gye"/>
-                                        <constraint firstItem="Yhe-Bi-hzG" firstAttribute="centerY" secondItem="4rZ-dE-as9" secondAttribute="centerY" id="ZRd-sV-Zgf"/>
-                                        <constraint firstItem="CxO-N5-w3F" firstAttribute="top" secondItem="4rZ-dE-as9" secondAttribute="top" constant="4" id="aS2-cH-4pB"/>
-                                        <constraint firstItem="0s4-ev-nnB" firstAttribute="leading" secondItem="CxO-N5-w3F" secondAttribute="trailing" constant="4" id="daZ-N8-gNB"/>
-                                        <constraint firstAttribute="bottom" secondItem="CxO-N5-w3F" secondAttribute="bottom" constant="4" id="eQs-E1-llS"/>
-                                        <constraint firstAttribute="bottom" secondItem="Yhe-Bi-hzG" secondAttribute="bottom" constant="4" id="ex6-t5-rhd"/>
-                                        <constraint firstAttribute="trailing" secondItem="0s4-ev-nnB" secondAttribute="trailing" constant="24" id="i1f-r3-cNZ"/>
-                                        <constraint firstItem="0s4-ev-nnB" firstAttribute="top" secondItem="4rZ-dE-as9" secondAttribute="top" constant="4" id="myq-mk-iWN"/>
-                                        <constraint firstItem="0s4-ev-nnB" firstAttribute="height" secondItem="Yhe-Bi-hzG" secondAttribute="height" id="pKJ-Fr-a6U"/>
-                                        <constraint firstItem="0s4-ev-nnB" firstAttribute="width" secondItem="Yhe-Bi-hzG" secondAttribute="width" id="xwJ-nn-cqu"/>
+                                        <constraint firstItem="IYD-Tg-shQ" firstAttribute="bottom" secondItem="Yhe-Bi-hzG" secondAttribute="bottom" id="71p-Bw-Y28"/>
+                                        <constraint firstItem="IYD-Tg-shQ" firstAttribute="width" secondItem="Yhe-Bi-hzG" secondAttribute="width" id="7PN-MY-EGG"/>
+                                        <constraint firstItem="0s4-ev-nnB" firstAttribute="width" secondItem="Yhe-Bi-hzG" secondAttribute="width" id="7YF-no-uQE"/>
+                                        <constraint firstItem="CxO-N5-w3F" firstAttribute="top" secondItem="Yhe-Bi-hzG" secondAttribute="top" id="C33-Zw-N7y"/>
+                                        <constraint firstItem="0s4-ev-nnB" firstAttribute="leading" secondItem="CxO-N5-w3F" secondAttribute="trailing" id="IQk-vN-uKc"/>
+                                        <constraint firstItem="CxO-N5-w3F" firstAttribute="bottom" secondItem="Yhe-Bi-hzG" secondAttribute="bottom" id="JFk-BT-P1H"/>
+                                        <constraint firstItem="CxO-N5-w3F" firstAttribute="width" secondItem="Yhe-Bi-hzG" secondAttribute="width" id="KWb-3e-EQw"/>
+                                        <constraint firstAttribute="trailing" secondItem="IYD-Tg-shQ" secondAttribute="trailing" constant="24" id="LY1-dI-VXL"/>
+                                        <constraint firstAttribute="bottom" secondItem="Yhe-Bi-hzG" secondAttribute="bottom" constant="4" id="Yo6-zz-oOa"/>
+                                        <constraint firstItem="CxO-N5-w3F" firstAttribute="leading" secondItem="Yhe-Bi-hzG" secondAttribute="trailing" id="cun-LR-kfT"/>
+                                        <constraint firstItem="0s4-ev-nnB" firstAttribute="top" secondItem="Yhe-Bi-hzG" secondAttribute="top" id="dBt-O5-6qh"/>
+                                        <constraint firstItem="IYD-Tg-shQ" firstAttribute="top" secondItem="Yhe-Bi-hzG" secondAttribute="top" id="fAB-Fq-nfD"/>
+                                        <constraint firstItem="0s4-ev-nnB" firstAttribute="bottom" secondItem="Yhe-Bi-hzG" secondAttribute="bottom" id="hKv-di-nNS"/>
+                                        <constraint firstItem="Yhe-Bi-hzG" firstAttribute="leading" secondItem="4rZ-dE-as9" secondAttribute="leading" constant="24" id="l6X-me-vs4"/>
+                                        <constraint firstItem="IYD-Tg-shQ" firstAttribute="leading" secondItem="0s4-ev-nnB" secondAttribute="trailing" id="ova-QH-1P0"/>
+                                        <constraint firstItem="Yhe-Bi-hzG" firstAttribute="top" secondItem="4rZ-dE-as9" secondAttribute="top" constant="4" id="qj6-O2-YCf"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -292,7 +299,7 @@
                                             <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="keyboard_detail_icon" translatesAutoresizingMaskIntoConstraints="NO" id="VUo-Az-nFl">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myp_detailDown" highlightedImage="myp_detailDown_highlight" translatesAutoresizingMaskIntoConstraints="NO" id="VUo-Az-nFl">
                                             <rect key="frame" x="341.5" y="28" width="13.5" height="8"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="8" id="8KW-RV-aXc"/>
@@ -342,7 +349,7 @@
                                             <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="keyboard_detail_icon" translatesAutoresizingMaskIntoConstraints="NO" id="t4D-Zz-rsU">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myp_detailDown" highlightedImage="myp_detailDown_highlight" translatesAutoresizingMaskIntoConstraints="NO" id="t4D-Zz-rsU">
                                             <rect key="frame" x="341.5" y="25" width="13.5" height="8"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="13.5" id="czU-4i-ObN"/>
@@ -351,7 +358,7 @@
                                         </imageView>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ry4-rj-Jan">
                                             <rect key="frame" x="313.5" y="19" width="20" height="20"/>
-                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.17254901960784313" green="0.24313725490196078" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="20" id="OQB-v5-loU"/>
                                                 <constraint firstAttribute="width" constant="20" id="vZ6-hn-nrc"/>
@@ -404,12 +411,14 @@
         <image name="b_select_icon" width="26" height="31"/>
         <image name="check_select_icon" width="36" height="34"/>
         <image name="i_select_icon" width="21" height="31"/>
-        <image name="keyboard_detail_icon" width="27" height="16"/>
         <image name="myp_alignCenter" width="35" height="35"/>
         <image name="myp_alignLeft" width="35" height="35"/>
         <image name="myp_alignRight" width="35" height="35"/>
         <image name="myp_bold" width="35" height="35"/>
+        <image name="myp_detailDown" width="27" height="16"/>
+        <image name="myp_detailDown_highlight" width="27" height="16"/>
         <image name="myp_italic" width="35" height="35"/>
+        <image name="myp_strikethrough" width="35" height="35"/>
         <image name="myp_underline" width="35" height="35"/>
         <image name="under_select_icon" width="29" height="39"/>
     </resources>
