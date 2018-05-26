@@ -23,7 +23,8 @@
   "resource_bundles": {
     "MYPMarkdownEditor": [
       "MYPMarkdownEditor/Assets/*.png",
-      "MYPMarkdownEditor/Assets/*.storyboard"
+      "MYPMarkdownEditor/Assets/*.storyboard",
+      "MYPMarkdownEditor/Assets/*.xcassets"
     ]
   }
 }

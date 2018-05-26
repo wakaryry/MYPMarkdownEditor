@@ -37,7 +37,7 @@ Markdown editor with synax highlight and more more more. And with other formatti
   s.source_files = 'MYPMarkdownEditor/Classes/**/*'
   
   s.resource_bundles = {
-     'MYPMarkdownEditor' => ['MYPMarkdownEditor/Assets/*.png', 'MYPMarkdownEditor/Assets/*.storyboard']
+     'MYPMarkdownEditor' => ['MYPMarkdownEditor/Assets/*.png', 'MYPMarkdownEditor/Assets/*.storyboard', 'MYPMarkdownEditor/Assets/*.xcassets']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
