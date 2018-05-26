@@ -17,6 +17,8 @@
 		A9DE7E3492A69A6ECC2F634E67C71DE1 /* MYPMarkdownEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 61D56ADDAC5412CC33F01CC164280C9E /* MYPMarkdownEditor.bundle */; };
 		E0BFF914C67943ACE1CDAA076EDEF111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E9B3F29A20B97E910029C45C /* MYPStyleSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B3F29920B97E910029C45C /* MYPStyleSettingController.swift */; };
+		E9B3F29C20B994550029C45C /* MYPFontSizePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B3F29B20B994550029C45C /* MYPFontSizePickerView.swift */; };
+		E9B3F29E20B9947D0029C45C /* MYPColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B3F29D20B9947D0029C45C /* MYPColorPickerView.swift */; };
 		EF8BD3393204C7F5F2893AFAB6C593CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F887AEE78B7EED208A418C86CF370A58 /* Pods-MYPMarkdownEditor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 210E014094DEDD6B39778C03C6EB5D45 /* Pods-MYPMarkdownEditor_Example-dummy.m */; };
 		F9BA58E97ED4605EC3B17B02360D6897 /* Pods-MYPMarkdownEditor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 808199DCDECDE135EA57C8821A9CD9E7 /* Pods-MYPMarkdownEditor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -82,6 +84,8 @@
 		CEEA8866CC6B5978AB822461D2038425 /* Pods-MYPMarkdownEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdownEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF394B3B1D574D168D8795F55DDD3596 /* Pods-MYPMarkdownEditor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYPMarkdownEditor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E9B3F29920B97E910029C45C /* MYPStyleSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MYPStyleSettingController.swift; path = MYPMarkdownEditor/Classes/MYPStyleSettingController.swift; sourceTree = "<group>"; };
+		E9B3F29B20B994550029C45C /* MYPFontSizePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MYPFontSizePickerView.swift; path = MYPMarkdownEditor/Classes/MYPFontSizePickerView.swift; sourceTree = "<group>"; };
+		E9B3F29D20B9947D0029C45C /* MYPColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MYPColorPickerView.swift; path = MYPMarkdownEditor/Classes/MYPColorPickerView.swift; sourceTree = "<group>"; };
 		EA26800524226C8ADA11F57932335EB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB0A411D85F97D2C74A21E0B3637CAD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6C8C4F2246E50906B630F3C141D1321 /* Pods_MYPMarkdownEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYPMarkdownEditor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				E9B3F29920B97E910029C45C /* MYPStyleSettingController.swift */,
+				E9B3F29B20B994550029C45C /* MYPFontSizePickerView.swift */,
+				E9B3F29D20B9947D0029C45C /* MYPColorPickerView.swift */,
 				449AF6310F3FD58BA2B6F6C6750502A5 /* Pod */,
 				CAEAC497852DA506324C61DA6F1AD87C /* Resources */,
 				7A3C9BD1B8311CC5B0AA7B939061DF1D /* Support Files */,
@@ -432,6 +438,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B3F29C20B994550029C45C /* MYPFontSizePickerView.swift in Sources */,
+				E9B3F29E20B9947D0029C45C /* MYPColorPickerView.swift in Sources */,
 				1E65CD0B08B238BA0B04D229F18E2A87 /* MYPMarkdownEditor-dummy.m in Sources */,
 				E9B3F29A20B97E910029C45C /* MYPStyleSettingController.swift in Sources */,
 			);
