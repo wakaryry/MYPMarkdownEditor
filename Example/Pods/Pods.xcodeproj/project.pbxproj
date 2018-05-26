@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DB54D0F58D843CE1F294F232F23BB5E /* MYPMarkdownEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90779168E9EF44447EFD54194A3071CE /* MYPMarkdownEditor-dummy.m */; };
+		1E65CD0B08B238BA0B04D229F18E2A87 /* MYPMarkdownEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 585758C213F8749351092A0C7D75F88C /* MYPMarkdownEditor-dummy.m */; };
+		27F24D2EE2FEABC0BFBF5E25FE5AE270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7A7A5E5A2306B6BD4697F6E9E26C871E /* Pods-MYPMarkdownEditor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB5CC5FDE2A852C49E7A452CF730168 /* Pods-MYPMarkdownEditor_Tests-dummy.m */; };
-		7E4EDB4604C589D28738CA4C1217EAEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7AC94CB3F4D10ADCAA43116F3E81055B /* MYPMarkdownEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05872CBF7D1D2DCEAA2112773C525CC7 /* MYPMarkdownEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92A35231C77180125002F840079D976B /* Pods-MYPMarkdownEditor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF394B3B1D574D168D8795F55DDD3596 /* Pods-MYPMarkdownEditor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		975DC41D67FCF7184EB1A2901FB054CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AFD7FE802065B09FAD8A43C78369695A /* MYPMarkdownEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F9955A228D021F70D3E24C7866075C /* MYPMarkdownEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEF86DDB210228588F739DF5F12B706C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27B9BB59B86AFB97C62B189E757BCD /* ReplaceMe.swift */; };
-		DAC1DAEA3B0B461BE5DFCF1355FF269D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		98E10246D742D494984675F314D6579E /* MYPFormatView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8D7CEF051F20E204D8EAF3C018262 /* MYPFormatView.storyboard */; };
+		A27311AD827CBDEBA864AE2B1761EE37 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE898B6666FD0C66E72134CF0FD6C12 /* ReplaceMe.swift */; };
+		A9DE7E3492A69A6ECC2F634E67C71DE1 /* MYPMarkdownEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 61D56ADDAC5412CC33F01CC164280C9E /* MYPMarkdownEditor.bundle */; };
+		E0BFF914C67943ACE1CDAA076EDEF111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		EF8BD3393204C7F5F2893AFAB6C593CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F887AEE78B7EED208A418C86CF370A58 /* Pods-MYPMarkdownEditor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 210E014094DEDD6B39778C03C6EB5D45 /* Pods-MYPMarkdownEditor_Example-dummy.m */; };
 		F9BA58E97ED4605EC3B17B02360D6897 /* Pods-MYPMarkdownEditor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 808199DCDECDE135EA57C8821A9CD9E7 /* Pods-MYPMarkdownEditor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -27,59 +29,68 @@
 			remoteGlobalIDString = 62FAD169507B7F7583E298B903EF2550;
 			remoteInfo = "Pods-MYPMarkdownEditor_Example";
 		};
+		7FDBDB5C41021A62700F15A196801293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A0A2528CC805BEC57823B14A7BE00B3;
+			remoteInfo = "MYPMarkdownEditor-MYPMarkdownEditor";
+		};
 		A01A3C6EA2B5C9B319EC7203C96ED156 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0938AC36F575C08E89402E1022D952B7;
+			remoteGlobalIDString = 3001F770C8A0BDB01BD82266F9C7FBDD;
 			remoteInfo = MYPMarkdownEditor;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05872CBF7D1D2DCEAA2112773C525CC7 /* MYPMarkdownEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYPMarkdownEditor-umbrella.h"; sourceTree = "<group>"; };
 		061A895A2E4933D0ECD680A12B5CFEF1 /* Pods-MYPMarkdownEditor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYPMarkdownEditor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		13C9F91F6116A55381B7B81C3A32038C /* MYPMarkdownEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MYPMarkdownEditor.framework; path = MYPMarkdownEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19F9955A228D021F70D3E24C7866075C /* MYPMarkdownEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYPMarkdownEditor-umbrella.h"; sourceTree = "<group>"; };
+		0A911C5C0ECC76FE154984586D8FC5B1 /* Pods_MYPMarkdownEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYPMarkdownEditor_Example.framework; path = "Pods-MYPMarkdownEditor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A8773C41D1F06D147D7E7BEF16616A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE898B6666FD0C66E72134CF0FD6C12 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MYPMarkdownEditor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1CB5CC5FDE2A852C49E7A452CF730168 /* Pods-MYPMarkdownEditor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYPMarkdownEditor_Tests-dummy.m"; sourceTree = "<group>"; };
 		210E014094DEDD6B39778C03C6EB5D45 /* Pods-MYPMarkdownEditor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYPMarkdownEditor_Example-dummy.m"; sourceTree = "<group>"; };
 		21872AA96C4882C4C0D9387189FE3828 /* Pods-MYPMarkdownEditor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYPMarkdownEditor_Tests.modulemap"; sourceTree = "<group>"; };
-		2BE21FA1B4E393DC55AB2E289B07F534 /* MYPMarkdownEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MYPMarkdownEditor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		38E17E1AC3CF3D51449BEE2E023A9F19 /* Pods-MYPMarkdownEditor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYPMarkdownEditor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		483A6AC063667C04CD7A279ABC936D24 /* Pods-MYPMarkdownEditor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYPMarkdownEditor_Example-resources.sh"; sourceTree = "<group>"; };
-		57092F169962566B4AF9C9CC8965AA57 /* Pods_MYPMarkdownEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYPMarkdownEditor_Example.framework; path = "Pods-MYPMarkdownEditor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585758C213F8749351092A0C7D75F88C /* MYPMarkdownEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYPMarkdownEditor-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61D56ADDAC5412CC33F01CC164280C9E /* MYPMarkdownEditor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MYPMarkdownEditor.bundle; path = "MYPMarkdownEditor-MYPMarkdownEditor.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		626043FF19E232E0BBA46285E3E4427C /* Pods-MYPMarkdownEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdownEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		677F6DC1B450455A1EF553E64BA6459F /* Pods-MYPMarkdownEditor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYPMarkdownEditor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6DD198F592448F911E08D4D0C3206B54 /* Pods_MYPMarkdownEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYPMarkdownEditor_Tests.framework; path = "Pods-MYPMarkdownEditor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B97698C83DC951F8ABF6CFEAE6569FB /* MYPMarkdownEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MYPMarkdownEditor.framework; path = MYPMarkdownEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7443CB8A961BA84430C0B1DDCD2D71B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		773A557F2A82F18437ADF5A05BB56B16 /* Pods-MYPMarkdownEditor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYPMarkdownEditor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		808199DCDECDE135EA57C8821A9CD9E7 /* Pods-MYPMarkdownEditor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYPMarkdownEditor_Example-umbrella.h"; sourceTree = "<group>"; };
-		88CF2E654349ECA0058338C9A04CEA06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8882B9210333347A4D493086E5EC3439 /* MYPMarkdownEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYPMarkdownEditor.xcconfig; sourceTree = "<group>"; };
 		8A4D7C5C9C41DAE3BFBC3DE4D5385049 /* Pods-MYPMarkdownEditor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYPMarkdownEditor_Example.modulemap"; sourceTree = "<group>"; };
+		8D883EAE28A157E0E8255389FC32D1E7 /* ResourceBundle-MYPMarkdownEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MYPMarkdownEditor-Info.plist"; sourceTree = "<group>"; };
 		8E972D0281718A600A9A38FD4D79067C /* Pods-MYPMarkdownEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdownEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		90779168E9EF44447EFD54194A3071CE /* MYPMarkdownEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYPMarkdownEditor-dummy.m"; sourceTree = "<group>"; };
 		90E8C9824500ABB8472566307ACC4574 /* Pods-MYPMarkdownEditor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYPMarkdownEditor_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDF19715CF2324DB3F9B8AFC210B2C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9EAD1C2C78EC36554C9C6976698AB9F8 /* MYPMarkdownEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYPMarkdownEditor.modulemap; sourceTree = "<group>"; };
+		9EE8D7CEF051F20E204D8EAF3C018262 /* MYPFormatView.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = MYPFormatView.storyboard; path = MYPMarkdownEditor/Assets/MYPFormatView.storyboard; sourceTree = "<group>"; };
 		A01548027AE581535B9713D3A4278969 /* Pods-MYPMarkdownEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdownEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A61B9CEB420BE8D1D53183DE209B554F /* MYPMarkdownEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYPMarkdownEditor.modulemap; sourceTree = "<group>"; };
-		AC8314050F8860CC911A6B09BB7D0A24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB92B758A844684AC40DD50783CD3909 /* Pods-MYPMarkdownEditor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYPMarkdownEditor_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C3E3902D6F957629225F43B35754A321 /* Pods-MYPMarkdownEditor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYPMarkdownEditor_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CC27B9BB59B86AFB97C62B189E757BCD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MYPMarkdownEditor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		CC5F8A85AFD5DB9C10F585BFBC580925 /* MYPMarkdownEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYPMarkdownEditor.xcconfig; sourceTree = "<group>"; };
+		C7707E353EF9AD1F6D55434C3B2C9992 /* MYPMarkdownEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYPMarkdownEditor-prefix.pch"; sourceTree = "<group>"; };
 		CEEA8866CC6B5978AB822461D2038425 /* Pods-MYPMarkdownEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdownEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF394B3B1D574D168D8795F55DDD3596 /* Pods-MYPMarkdownEditor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYPMarkdownEditor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EA26800524226C8ADA11F57932335EB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA5134A4C0CA9E3EE33E5188143430B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EB0A411D85F97D2C74A21E0B3637CAD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB673CFD8CF89EE2869F49D2BC6D948D /* MYPMarkdownEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYPMarkdownEditor-prefix.pch"; sourceTree = "<group>"; };
+		F6C8C4F2246E50906B630F3C141D1321 /* Pods_MYPMarkdownEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYPMarkdownEditor_Tests.framework; path = "Pods-MYPMarkdownEditor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F828222E9150BE2BFBCF95F4C0F263E2 /* MYPMarkdownEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MYPMarkdownEditor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2CB6456EA58FD868BEC7569A06B86F00 /* Frameworks */ = {
+		48014D22C95144D1553A5CE945E5068A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAC1DAEA3B0B461BE5DFCF1355FF269D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				975DC41D67FCF7184EB1A2901FB054CB /* Foundation.framework in Frameworks */,
+				E0BFF914C67943ACE1CDAA076EDEF111 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,13 +106,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E4EDB4604C589D28738CA4C1217EAEF /* Foundation.framework in Frameworks */,
+				EF8BD3393204C7F5F2893AFAB6C593CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B14C09250F0B2FDAEB7558E663C64182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F24D2EE2FEABC0BFBF5E25FE5AE270 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2464414B1EF509DB4B67AFD0F2E457 /* MYPMarkdownEditor */ = {
+			isa = PBXGroup;
+			children = (
+				1AE898B6666FD0C66E72134CF0FD6C12 /* ReplaceMe.swift */,
+				78D83FF47AA259E40E9EBF5070D3E46A /* Pod */,
+				E31DEDBACE382D12EF40B73E34524AB3 /* Resources */,
+				FBD35A5D385D71FBFF4BD095DE49646B /* Support Files */,
+			);
+			name = MYPMarkdownEditor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		25E5238671E899702E4D4BC81826E22A /* Pods-MYPMarkdownEditor_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,24 +151,42 @@
 			path = "Target Support Files/Pods-MYPMarkdownEditor_Example";
 			sourceTree = "<group>";
 		};
-		3E96A86BD1C86E80AF9D71AAE22B8E49 /* MYPMarkdownEditor */ = {
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CC27B9BB59B86AFB97C62B189E757BCD /* ReplaceMe.swift */,
-				F60A18254BD22E3DFF8FB9111ED2F1E9 /* Pod */,
-				F76EC447DB9692A6365B4B30D8180EC3 /* Support Files */,
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
-			name = MYPMarkdownEditor;
-			path = ../..;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64CA9E5AA37528914B9B9C70041F8B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D56ADDAC5412CC33F01CC164280C9E /* MYPMarkdownEditor.bundle */,
+				6B97698C83DC951F8ABF6CFEAE6569FB /* MYPMarkdownEditor.framework */,
+				0A911C5C0ECC76FE154984586D8FC5B1 /* Pods_MYPMarkdownEditor_Example.framework */,
+				F6C8C4F2246E50906B630F3C141D1321 /* Pods_MYPMarkdownEditor_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78D83FF47AA259E40E9EBF5070D3E46A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9DDF19715CF2324DB3F9B8AFC210B2C4 /* LICENSE */,
+				F828222E9150BE2BFBCF95F4C0F263E2 /* MYPMarkdownEditor.podspec */,
+				7443CB8A961BA84430C0B1DDCD2D71B8 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				EF21DC075CEED8142617CCA306358DF1 /* Development Pods */,
+				E9FA6003B36049181E88CE0D5A256458 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BDD8474FC417560D4A4E65C42324BD74 /* Products */,
+				64CA9E5AA37528914B9B9C70041F8B3D /* Products */,
 				BDE24FCA9C73CE4430E2EDB9EACBC460 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -145,19 +194,9 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BDD8474FC417560D4A4E65C42324BD74 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13C9F91F6116A55381B7B81C3A32038C /* MYPMarkdownEditor.framework */,
-				57092F169962566B4AF9C9CC8965AA57 /* Pods_MYPMarkdownEditor_Example.framework */,
-				6DD198F592448F911E08D4D0C3206B54 /* Pods_MYPMarkdownEditor_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BDE24FCA9C73CE4430E2EDB9EACBC460 /* Targets Support Files */ = {
@@ -187,41 +226,32 @@
 			path = "Target Support Files/Pods-MYPMarkdownEditor_Tests";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		E31DEDBACE382D12EF40B73E34524AB3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				9EE8D7CEF051F20E204D8EAF3C018262 /* MYPFormatView.storyboard */,
 			);
-			name = iOS;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		EF21DC075CEED8142617CCA306358DF1 /* Development Pods */ = {
+		E9FA6003B36049181E88CE0D5A256458 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3E96A86BD1C86E80AF9D71AAE22B8E49 /* MYPMarkdownEditor */,
+				1B2464414B1EF509DB4B67AFD0F2E457 /* MYPMarkdownEditor */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F60A18254BD22E3DFF8FB9111ED2F1E9 /* Pod */ = {
+		FBD35A5D385D71FBFF4BD095DE49646B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA5134A4C0CA9E3EE33E5188143430B5 /* LICENSE */,
-				2BE21FA1B4E393DC55AB2E289B07F534 /* MYPMarkdownEditor.podspec */,
-				88CF2E654349ECA0058338C9A04CEA06 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F76EC447DB9692A6365B4B30D8180EC3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AC8314050F8860CC911A6B09BB7D0A24 /* Info.plist */,
-				A61B9CEB420BE8D1D53183DE209B554F /* MYPMarkdownEditor.modulemap */,
-				CC5F8A85AFD5DB9C10F585BFBC580925 /* MYPMarkdownEditor.xcconfig */,
-				90779168E9EF44447EFD54194A3071CE /* MYPMarkdownEditor-dummy.m */,
-				FB673CFD8CF89EE2869F49D2BC6D948D /* MYPMarkdownEditor-prefix.pch */,
-				19F9955A228D021F70D3E24C7866075C /* MYPMarkdownEditor-umbrella.h */,
+				18A8773C41D1F06D147D7E7BEF16616A /* Info.plist */,
+				9EAD1C2C78EC36554C9C6976698AB9F8 /* MYPMarkdownEditor.modulemap */,
+				8882B9210333347A4D493086E5EC3439 /* MYPMarkdownEditor.xcconfig */,
+				585758C213F8749351092A0C7D75F88C /* MYPMarkdownEditor-dummy.m */,
+				C7707E353EF9AD1F6D55434C3B2C9992 /* MYPMarkdownEditor-prefix.pch */,
+				05872CBF7D1D2DCEAA2112773C525CC7 /* MYPMarkdownEditor-umbrella.h */,
+				8D883EAE28A157E0E8255389FC32D1E7 /* ResourceBundle-MYPMarkdownEditor-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MYPMarkdownEditor";
@@ -230,19 +260,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		27ED3C42215ADC7BA1377C01B99F577B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AFD7FE802065B09FAD8A43C78369695A /* MYPMarkdownEditor-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7FB7DCC06C7C487D06CFE954A1DD54A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F9BA58E97ED4605EC3B17B02360D6897 /* Pods-MYPMarkdownEditor_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E989E6F051797DD4CA92D215017B9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC94CB3F4D10ADCAA43116F3E81055B /* MYPMarkdownEditor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,23 +287,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0938AC36F575C08E89402E1022D952B7 /* MYPMarkdownEditor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9040BF8DF0AE028D4BE304D72B0B2E8 /* Build configuration list for PBXNativeTarget "MYPMarkdownEditor" */;
-			buildPhases = (
-				4F4A0815FAFBA9EA1C6BBDEC9464F5B8 /* Sources */,
-				2CB6456EA58FD868BEC7569A06B86F00 /* Frameworks */,
-				27ED3C42215ADC7BA1377C01B99F577B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MYPMarkdownEditor;
-			productName = MYPMarkdownEditor;
-			productReference = 13C9F91F6116A55381B7B81C3A32038C /* MYPMarkdownEditor.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		2E1749BC1C5FE802406934B816BF1D28 /* Pods-MYPMarkdownEditor_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24CF7E5AA52C2DE3C35FB5F86198D8EB /* Build configuration list for PBXNativeTarget "Pods-MYPMarkdownEditor_Tests" */;
@@ -289,8 +302,44 @@
 			);
 			name = "Pods-MYPMarkdownEditor_Tests";
 			productName = "Pods-MYPMarkdownEditor_Tests";
-			productReference = 6DD198F592448F911E08D4D0C3206B54 /* Pods_MYPMarkdownEditor_Tests.framework */;
+			productReference = F6C8C4F2246E50906B630F3C141D1321 /* Pods_MYPMarkdownEditor_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		3001F770C8A0BDB01BD82266F9C7FBDD /* MYPMarkdownEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1844D1085E1A33E4634E728B08A25038 /* Build configuration list for PBXNativeTarget "MYPMarkdownEditor" */;
+			buildPhases = (
+				E4A6E9063B59EB3197E2382E4F813004 /* Sources */,
+				B14C09250F0B2FDAEB7558E663C64182 /* Frameworks */,
+				646DFC4BB190945F5E42B885D444D5A8 /* Resources */,
+				F4E989E6F051797DD4CA92D215017B9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC411D72A9F9958AED2DC51375A274F9 /* PBXTargetDependency */,
+			);
+			name = MYPMarkdownEditor;
+			productName = MYPMarkdownEditor;
+			productReference = 6B97698C83DC951F8ABF6CFEAE6569FB /* MYPMarkdownEditor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A0A2528CC805BEC57823B14A7BE00B3 /* MYPMarkdownEditor-MYPMarkdownEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B288B103019954A26DCEEAEB5DA3E2C /* Build configuration list for PBXNativeTarget "MYPMarkdownEditor-MYPMarkdownEditor" */;
+			buildPhases = (
+				ED0E7A97CA390259377F0A199801CA4E /* Sources */,
+				48014D22C95144D1553A5CE945E5068A /* Frameworks */,
+				F28940A13E62A80E1F5EAA061C0C601E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MYPMarkdownEditor-MYPMarkdownEditor";
+			productName = "MYPMarkdownEditor-MYPMarkdownEditor";
+			productReference = 61D56ADDAC5412CC33F01CC164280C9E /* MYPMarkdownEditor.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		62FAD169507B7F7583E298B903EF2550 /* Pods-MYPMarkdownEditor_Example */ = {
 			isa = PBXNativeTarget;
@@ -307,7 +356,7 @@
 			);
 			name = "Pods-MYPMarkdownEditor_Example";
 			productName = "Pods-MYPMarkdownEditor_Example";
-			productReference = 57092F169962566B4AF9C9CC8965AA57 /* Pods_MYPMarkdownEditor_Example.framework */;
+			productReference = 0A911C5C0ECC76FE154984586D8FC5B1 /* Pods_MYPMarkdownEditor_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,16 +376,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BDD8474FC417560D4A4E65C42324BD74 /* Products */;
+			productRefGroup = 64CA9E5AA37528914B9B9C70041F8B3D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0938AC36F575C08E89402E1022D952B7 /* MYPMarkdownEditor */,
+				3001F770C8A0BDB01BD82266F9C7FBDD /* MYPMarkdownEditor */,
+				5A0A2528CC805BEC57823B14A7BE00B3 /* MYPMarkdownEditor-MYPMarkdownEditor */,
 				62FAD169507B7F7583E298B903EF2550 /* Pods-MYPMarkdownEditor_Example */,
 				2E1749BC1C5FE802406934B816BF1D28 /* Pods-MYPMarkdownEditor_Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		646DFC4BB190945F5E42B885D444D5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DE7E3492A69A6ECC2F634E67C71DE1 /* MYPMarkdownEditor.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28940A13E62A80E1F5EAA061C0C601E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E10246D742D494984675F314D6579E /* MYPFormatView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E63F93A4E8C51A63BFB51DB5A5C66CA /* Sources */ = {
@@ -344,15 +413,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A7A5E5A2306B6BD4697F6E9E26C871E /* Pods-MYPMarkdownEditor_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F4A0815FAFBA9EA1C6BBDEC9464F5B8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DB54D0F58D843CE1F294F232F23BB5E /* MYPMarkdownEditor-dummy.m in Sources */,
-				CEF86DDB210228588F739DF5F12B706C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,13 +424,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4A6E9063B59EB3197E2382E4F813004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E65CD0B08B238BA0B04D229F18E2A87 /* MYPMarkdownEditor-dummy.m in Sources */,
+				A27311AD827CBDEBA864AE2B1761EE37 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0E7A97CA390259377F0A199801CA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		13622D46DB259247604B6F040486C3B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MYPMarkdownEditor;
-			target = 0938AC36F575C08E89402E1022D952B7 /* MYPMarkdownEditor */;
+			target = 3001F770C8A0BDB01BD82266F9C7FBDD /* MYPMarkdownEditor */;
 			targetProxy = A01A3C6EA2B5C9B319EC7203C96ED156 /* PBXContainerItemProxy */;
 		};
 		C1F7D1DF4DD19B6421C3D190348DD308 /* PBXTargetDependency */ = {
@@ -379,113 +455,37 @@
 			target = 62FAD169507B7F7583E298B903EF2550 /* Pods-MYPMarkdownEditor_Example */;
 			targetProxy = 52536C7CFD0C2A11BE4E0269761F00A9 /* PBXContainerItemProxy */;
 		};
+		CC411D72A9F9958AED2DC51375A274F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MYPMarkdownEditor-MYPMarkdownEditor";
+			target = 5A0A2528CC805BEC57823B14A7BE00B3 /* MYPMarkdownEditor-MYPMarkdownEditor */;
+			targetProxy = 7FDBDB5C41021A62700F15A196801293 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01ACE05D6050636B29BE8F1C5870F7EA /* Debug */ = {
+		33702A202499423F88E81BDC48D82D41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E972D0281718A600A9A38FD4D79067C /* Pods-MYPMarkdownEditor_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8882B9210333347A4D493086E5EC3439 /* MYPMarkdownEditor.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Tests/Pods-MYPMarkdownEditor_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1C3DBA5034F5E84DF78E123BB5129BDB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC5F8A85AFD5DB9C10F585BFBC580925 /* MYPMarkdownEditor.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MYPMarkdownEditor/MYPMarkdownEditor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MYPMarkdownEditor/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MYPMarkdownEditor/MYPMarkdownEditor.modulemap";
-				PRODUCT_MODULE_NAME = MYPMarkdownEditor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MYPMarkdownEditor";
+				INFOPLIST_FILE = "Target Support Files/MYPMarkdownEditor/ResourceBundle-MYPMarkdownEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = MYPMarkdownEditor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5E885762708DECE6341F65E9D4A2C0FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEEA8866CC6B5978AB822461D2038425 /* Pods-MYPMarkdownEditor_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Tests/Pods-MYPMarkdownEditor_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		7FD2072332C6A5BDC578AC668FDF9317 /* Release */ = {
+		525EF51A034B4E40706CB35CBCCDFE60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 626043FF19E232E0BBA46285E3E4427C /* Pods-MYPMarkdownEditor_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -497,7 +497,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Example/Pods-MYPMarkdownEditor_Example.modulemap";
@@ -516,7 +516,7 @@
 			};
 			name = Release;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -569,7 +569,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -579,42 +579,7 @@
 			};
 			name = Debug;
 		};
-		9C7300C866F13C438E37872BB3F39E81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A01548027AE581535B9713D3A4278969 /* Pods-MYPMarkdownEditor_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Example/Pods-MYPMarkdownEditor_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -664,7 +629,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -672,10 +637,47 @@
 			};
 			name = Release;
 		};
-		C728A887CB15BF4C2B854F65A162B394 /* Release */ = {
+		6B1A15566AD562FDCB3B47D44C9ABEE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC5F8A85AFD5DB9C10F585BFBC580925 /* MYPMarkdownEditor.xcconfig */;
+			baseConfigurationReference = A01548027AE581535B9713D3A4278969 /* Pods-MYPMarkdownEditor_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Example/Pods-MYPMarkdownEditor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8355379A86E78A8BA63DF1DA052848E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8882B9210333347A4D493086E5EC3439 /* MYPMarkdownEditor.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -688,7 +690,125 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MYPMarkdownEditor/MYPMarkdownEditor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MYPMarkdownEditor/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MYPMarkdownEditor/MYPMarkdownEditor.modulemap";
+				PRODUCT_MODULE_NAME = MYPMarkdownEditor;
+				PRODUCT_NAME = MYPMarkdownEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D78802233861EE652298528B18B7032B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E972D0281718A600A9A38FD4D79067C /* Pods-MYPMarkdownEditor_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Tests/Pods-MYPMarkdownEditor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED969350CAB9D1ED93E908C468DC69F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8882B9210333347A4D493086E5EC3439 /* MYPMarkdownEditor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MYPMarkdownEditor";
+				INFOPLIST_FILE = "Target Support Files/MYPMarkdownEditor/ResourceBundle-MYPMarkdownEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = MYPMarkdownEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F7B141D8B544886F4A2982D402B69F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEA8866CC6B5978AB822461D2038425 /* Pods-MYPMarkdownEditor_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MYPMarkdownEditor_Tests/Pods-MYPMarkdownEditor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7F116E39CEB93263CA1704CD675674B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8882B9210333347A4D493086E5EC3439 /* MYPMarkdownEditor.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MYPMarkdownEditor/MYPMarkdownEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MYPMarkdownEditor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MYPMarkdownEditor/MYPMarkdownEditor.modulemap";
 				PRODUCT_MODULE_NAME = MYPMarkdownEditor;
@@ -697,7 +817,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -708,11 +828,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1844D1085E1A33E4634E728B08A25038 /* Build configuration list for PBXNativeTarget "MYPMarkdownEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8355379A86E78A8BA63DF1DA052848E7 /* Debug */,
+				F7F116E39CEB93263CA1704CD675674B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		24CF7E5AA52C2DE3C35FB5F86198D8EB /* Build configuration list for PBXNativeTarget "Pods-MYPMarkdownEditor_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01ACE05D6050636B29BE8F1C5870F7EA /* Debug */,
-				5E885762708DECE6341F65E9D4A2C0FA /* Release */,
+				D78802233861EE652298528B18B7032B /* Debug */,
+				F7B141D8B544886F4A2982D402B69F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B288B103019954A26DCEEAEB5DA3E2C /* Build configuration list for PBXNativeTarget "MYPMarkdownEditor-MYPMarkdownEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED969350CAB9D1ED93E908C468DC69F4 /* Debug */,
+				33702A202499423F88E81BDC48D82D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -720,8 +858,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -729,17 +867,8 @@
 		B35ED797AEACDC895B807555B730AC82 /* Build configuration list for PBXNativeTarget "Pods-MYPMarkdownEditor_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C7300C866F13C438E37872BB3F39E81 /* Debug */,
-				7FD2072332C6A5BDC578AC668FDF9317 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F9040BF8DF0AE028D4BE304D72B0B2E8 /* Build configuration list for PBXNativeTarget "MYPMarkdownEditor" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1C3DBA5034F5E84DF78E123BB5129BDB /* Debug */,
-				C728A887CB15BF4C2B854F65A162B394 /* Release */,
+				6B1A15566AD562FDCB3B47D44C9ABEE4 /* Debug */,
+				525EF51A034B4E40706CB35CBCCDFE60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
