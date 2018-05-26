@@ -36,9 +36,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MYPMarkdownEditor/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MYPMarkdownEditor' => ['MYPMarkdownEditor/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'MYPMarkdownEditor' => ['MYPMarkdownEditor/Assets/*.png', 'MYPMarkdownEditor/Assets/*.storyboard']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
