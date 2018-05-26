@@ -20,7 +20,7 @@ pod 'MYPMarkdownEditor'
 
 ## Author
 
-mayuping321@163.com, redoume@163.com
+wakary, redoume@163.com
 
 ## License
 

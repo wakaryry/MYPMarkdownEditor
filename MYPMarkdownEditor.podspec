@@ -1,3 +1,6 @@
+@version = '0.1.0'
+@swift_version = '4.1'
+@deployment_target = '10.0'
 #
 # Be sure to run `pod lib lint MYPMarkdownEditor.podspec' to ensure this is a
 # valid spec before submitting.
@@ -8,8 +11,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYPMarkdownEditor'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MYPMarkdownEditor.'
+  s.version          = @version
+  s.summary          = 'Markdown editor with synax highlight and more more more.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +24,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/mayuping321@163.com/MYPMarkdownEditor'
+  s.homepage         = 'https://github.com/wakaryry/MYPMarkdownEditor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mayuping321@163.com' => 'redoume@163.com' }
-  s.source           = { :git => 'https://github.com/mayuping321@163.com/MYPMarkdownEditor.git', :tag => s.version.to_s }
+  s.author           = { 'wakary' => 'redoume@163.com' }
+  s.source           = { :git => 'https://github.com/wakaryry/MYPMarkdownEditor.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = @deployment_target
+  s.swift_version = @swift_version
 
   s.source_files = 'MYPMarkdownEditor/Classes/**/*'
   
