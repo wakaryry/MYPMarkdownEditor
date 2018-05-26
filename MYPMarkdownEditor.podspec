@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Markdown editor with synax highlight and more more more. And with other formatting. With input convenience.
                        DESC
 
   s.homepage         = 'https://github.com/wakaryry/MYPMarkdownEditor'
