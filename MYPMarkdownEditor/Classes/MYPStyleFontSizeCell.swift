@@ -8,6 +8,9 @@
 import UIKit
 
 class MYPStyleFontSizeCell: UITableViewCell {
+    
+    @IBOutlet var fontSizeLabel: UILabel!
+    @IBOutlet var pickerView: MYPFontSizePickerView!
 
     override func awakeFromNib() {
         super.awakeFromNib()
