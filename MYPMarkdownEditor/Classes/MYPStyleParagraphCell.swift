@@ -8,6 +8,10 @@
 import UIKit
 
 class MYPStyleParagraphCell: UITableViewCell {
+    
+    @IBOutlet var alignLeftButton: UIButton!
+    @IBOutlet var alignCenterButton: UIButton!
+    @IBOutlet var alignRightButton: UIButton!
 
     override func awakeFromNib() {
         super.awakeFromNib()

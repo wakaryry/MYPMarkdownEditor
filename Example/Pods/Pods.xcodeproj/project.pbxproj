@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		08583A391684289A14A55A2DED6D3927 /* MYPColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3918C8979006226DA84C9062EF8D3B /* MYPColorPickerView.swift */; };
-		0F30E0B2BCB56012B920D1F575F6E7B4 /* MYPFontSizePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98460D382112FDC03BC0CCDA81FD2D07 /* MYPFontSizePickerView.swift */; };
 		220D1FC9FDDA4BE9B088A134BEC755F3 /* MYPStyleFontStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594864659AB923011F0742825F1BF76 /* MYPStyleFontStyleCell.swift */; };
 		293838CDCF580CDED6378A304CDEBE19 /* MYPMarkdownEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 61D56ADDAC5412CC33F01CC164280C9E /* MYPMarkdownEditor.bundle */; };
 		43E93166BD14C31F457913CA8EE0913B /* MYPStyleParagraphCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29035DB4F58F291B083D9395E6F280D0 /* MYPStyleParagraphCell.swift */; };
@@ -89,7 +88,6 @@
 		9015EF9A99E153508727CD611F3746C8 /* MYPMarkdownEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYPMarkdownEditor.modulemap; sourceTree = "<group>"; };
 		90E8C9824500ABB8472566307ACC4574 /* Pods-MYPMarkdownEditor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYPMarkdownEditor_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98460D382112FDC03BC0CCDA81FD2D07 /* MYPFontSizePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MYPFontSizePickerView.swift; path = MYPMarkdownEditor/Classes/MYPFontSizePickerView.swift; sourceTree = "<group>"; };
 		9E2C441F2061BB9F31FBF4FA00E7EE90 /* ResourceBundle-MYPMarkdownEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MYPMarkdownEditor-Info.plist"; sourceTree = "<group>"; };
 		A01548027AE581535B9713D3A4278969 /* Pods-MYPMarkdownEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdownEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB92B758A844684AC40DD50783CD3909 /* Pods-MYPMarkdownEditor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYPMarkdownEditor_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -252,7 +250,6 @@
 			isa = PBXGroup;
 			children = (
 				7F3918C8979006226DA84C9062EF8D3B /* MYPColorPickerView.swift */,
-				98460D382112FDC03BC0CCDA81FD2D07 /* MYPFontSizePickerView.swift */,
 				6ABE82293BE077BC0BC28C5DF02BB9BD /* MYPSegmentedControl.swift */,
 				C62E14D7BBCEC6E0DF99AA4952D2ABCF /* MYPStyleColorCell.swift */,
 				340E336AAFF1D786E004CE38210EB138 /* MYPStyleFontSizeCell.swift */,
@@ -444,7 +441,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				08583A391684289A14A55A2DED6D3927 /* MYPColorPickerView.swift in Sources */,
-				0F30E0B2BCB56012B920D1F575F6E7B4 /* MYPFontSizePickerView.swift in Sources */,
 				BB224C044DEA603E949867DD96EBEB75 /* MYPMarkdownEditor-dummy.m in Sources */,
 				DFE327E7B5E8FC5832A908989F04007B /* MYPSegmentedControl.swift in Sources */,
 				90BB65C76F9C182886567EDA00E315FC /* MYPStyleColorCell.swift in Sources */,

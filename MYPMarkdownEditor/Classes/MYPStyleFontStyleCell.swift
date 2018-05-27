@@ -8,6 +8,11 @@
 import UIKit
 
 class MYPStyleFontStyleCell: UITableViewCell {
+    
+    @IBOutlet var boldButton: UIButton!
+    @IBOutlet var italicButton: UIButton!
+    @IBOutlet var underlineButton: UIButton!
+    @IBOutlet var strikethroughButton: UIButton!
 
     override func awakeFromNib() {
         super.awakeFromNib()
