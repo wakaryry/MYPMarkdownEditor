@@ -33,5 +33,5 @@ public enum MYPMarkdownEditorFormattingStyle: Int {
 }
 
 public protocol MYPStyleSettingProtocol {
-    func mypMarkdownEditor_didTap(style: MYPMarkdownEditorFormattingStyle)
+    func mypMarkdownEditor_didTap(styleType: MYPMarkdownEditorFormattingStyle)
 }
