@@ -379,6 +379,14 @@
                                         <constraint firstItem="VUo-Az-nFl" firstAttribute="centerY" secondItem="s1L-D1-JdU" secondAttribute="centerY" id="zMv-ZW-Ety"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outletCollection property="buttons" destination="O7U-sX-I2f" collectionClass="NSMutableArray" id="Rlr-TR-L02"/>
+                                    <outletCollection property="buttons" destination="JRL-zI-l1u" collectionClass="NSMutableArray" id="bmV-pd-DTr"/>
+                                    <outletCollection property="buttons" destination="yJN-Jq-FtJ" collectionClass="NSMutableArray" id="P0Y-aN-oQk"/>
+                                    <outletCollection property="buttons" destination="j9B-zO-FAv" collectionClass="NSMutableArray" id="hjd-5l-c1O"/>
+                                    <outletCollection property="buttons" destination="zz5-5S-zar" collectionClass="NSMutableArray" id="0cC-es-3up"/>
+                                    <outletCollection property="buttons" destination="8Lr-OM-Eqg" collectionClass="NSMutableArray" id="rWy-Rw-dMJ"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="colorID" rowHeight="180" id="j4s-oW-hfB" customClass="MYPStyleColorCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="388" width="375" height="180"/>
@@ -417,6 +425,9 @@
                                         <constraint firstItem="9QH-WR-KCL" firstAttribute="leading" secondItem="qEe-R5-XLK" secondAttribute="leading" constant="20" id="jbn-j9-Qh1"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="colorPickerView" destination="78l-M3-v9e" id="wYh-PU-uYm"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>

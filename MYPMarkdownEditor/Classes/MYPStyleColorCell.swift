@@ -9,7 +9,6 @@ import UIKit
 
 class MYPStyleColorCell: UITableViewCell {
     
-    @IBOutlet var colorDisplayView: UIView!
     @IBOutlet var colorPickerView: MYPColorPickerView!
 
     override func awakeFromNib() {
