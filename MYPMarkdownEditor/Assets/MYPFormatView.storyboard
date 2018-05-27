@@ -182,30 +182,31 @@
                                             <rect key="frame" x="24" y="4" width="82" height="52"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="18" maxX="0.0" maxY="18"/>
                                             <state key="normal" image="myp_bold"/>
-                                            <state key="selected" image="b_select_icon"/>
-                                            <state key="highlighted" image="b_select_icon"/>
+                                            <state key="selected" image="myp_bold_highlight"/>
+                                            <state key="highlighted" image="myp_bold_highlight"/>
                                         </button>
                                         <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxO-N5-w3F">
                                             <rect key="frame" x="106" y="4" width="81.5" height="52"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="18" maxX="0.0" maxY="18"/>
                                             <state key="normal" image="myp_italic"/>
-                                            <state key="selected" image="i_select_icon"/>
+                                            <state key="selected" image="myp_italic_highlight"/>
+                                            <state key="highlighted" image="myp_italic_highlight"/>
                                         </button>
                                         <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0s4-ev-nnB">
                                             <rect key="frame" x="187.5" y="4" width="82" height="52"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="18" maxX="0.0" maxY="18"/>
                                             <state key="normal" image="myp_underline"/>
-                                            <state key="selected" image="under_select_icon"/>
-                                            <state key="highlighted" image="b_select_icon"/>
+                                            <state key="selected" image="myp_underline_highlight"/>
+                                            <state key="highlighted" image="myp_underline_highlight"/>
                                         </button>
                                         <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYD-Tg-shQ">
                                             <rect key="frame" x="269.5" y="4" width="81.5" height="52"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="18" maxX="0.0" maxY="18"/>
                                             <state key="normal" image="myp_strikethrough"/>
-                                            <state key="selected" image="under_select_icon"/>
-                                            <state key="highlighted" image="b_select_icon"/>
+                                            <state key="selected" image="myp_strikethrough_highlight"/>
+                                            <state key="highlighted" image="myp_strikethrough_highlight"/>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -245,18 +246,22 @@
                                             <rect key="frame" x="134.5" y="4" width="106" height="51.5"/>
                                             <inset key="contentEdgeInsets" minX="0.0" minY="16" maxX="0.0" maxY="16"/>
                                             <state key="normal" image="myp_alignCenter"/>
-                                            <state key="selected" image="check_select_icon"/>
+                                            <state key="selected" image="myp_alignCenter_highlight"/>
+                                            <state key="highlighted" image="myp_alignCenter_highlight"/>
                                         </button>
                                         <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6a-6c-ZSg">
                                             <rect key="frame" x="244.5" y="4" width="106.5" height="51.5"/>
                                             <inset key="contentEdgeInsets" minX="0.0" minY="16" maxX="0.0" maxY="16"/>
                                             <state key="normal" image="myp_alignRight"/>
+                                            <state key="selected" image="myp_alignRight_highlight"/>
+                                            <state key="highlighted" image="myp_alignRight_highlight"/>
                                         </button>
                                         <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgs-Gr-QhW">
                                             <rect key="frame" x="24" y="4" width="106.5" height="51.5"/>
                                             <inset key="contentEdgeInsets" minX="0.0" minY="16" maxX="0.0" maxY="16"/>
                                             <state key="normal" image="myp_alignLeft"/>
-                                            <state key="selected" image="123_select_icon"/>
+                                            <state key="selected" image="myp_alignLeft_highlight"/>
+                                            <state key="highlighted" image="myp_alignLeft_highlight"/>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -443,19 +448,21 @@
         </scene>
     </scenes>
     <resources>
-        <image name="123_select_icon" width="35" height="35"/>
-        <image name="b_select_icon" width="26" height="31"/>
-        <image name="check_select_icon" width="36" height="34"/>
-        <image name="i_select_icon" width="21" height="31"/>
         <image name="myp_alignCenter" width="35" height="35"/>
+        <image name="myp_alignCenter_highlight" width="35" height="35"/>
         <image name="myp_alignLeft" width="35" height="35"/>
+        <image name="myp_alignLeft_highlight" width="35" height="35"/>
         <image name="myp_alignRight" width="35" height="35"/>
+        <image name="myp_alignRight_highlight" width="35" height="35"/>
         <image name="myp_bold" width="35" height="35"/>
+        <image name="myp_bold_highlight" width="35" height="35"/>
         <image name="myp_detailDown" width="27" height="16"/>
         <image name="myp_detailDown_highlight" width="27" height="16"/>
         <image name="myp_italic" width="35" height="35"/>
+        <image name="myp_italic_highlight" width="35" height="35"/>
         <image name="myp_strikethrough" width="35" height="35"/>
+        <image name="myp_strikethrough_highlight" width="35" height="35"/>
         <image name="myp_underline" width="35" height="35"/>
-        <image name="under_select_icon" width="29" height="39"/>
+        <image name="myp_underline_highlight" width="35" height="35"/>
     </resources>
 </document>

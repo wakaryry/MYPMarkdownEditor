@@ -31,19 +31,19 @@ class ViewController: UIViewController {
     }
     
     @IBAction func change(_ sender: UIButton) {
-        let _ = self.textField.becomeFirstResponder()
-        if sender.tag == 0 {
-            self.textField.inputView = settingController.view
-            self.textField.reloadInputViews()
+        if self.textField.isFirstResponder {
+            if sender.tag == 0 {
+                self.textField.inputView = settingController.view
+                self.textField.reloadInputViews()
+            }
+            else {
+                self.textField.inputView = nil
+                self.textField.reloadInputViews()
+            }
+            
+            sender.tag = sender.tag == 0 ? 1 : 0
         }
-        else {
-            self.textField.inputView = nil
-            self.textField.reloadInputViews()
-        }
-        
-        sender.tag = sender.tag == 0 ? 1 : 0
     }
-    
 }
 
 extension ViewController: MYPStyleSettingProtocol {
