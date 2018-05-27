@@ -304,7 +304,7 @@
                                             <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XBb-T0-IMU" customClass="LMFontSizePickerView">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XBb-T0-IMU" customClass="MYPFontSizePickerView" customModule="MYPMarkdownEditor" customModuleProvider="target">
                                             <rect key="frame" x="20" y="72.5" width="335" height="40"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="40" id="mvC-MB-7U7"/>
@@ -357,7 +357,7 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78l-M3-v9e" customClass="LMColorPickerView">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78l-M3-v9e" customClass="MYPColorPickerView" customModule="MYPMarkdownEditor" customModuleProvider="target">
                                             <rect key="frame" x="60" y="80" width="255" height="80"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="80" id="hhm-L0-HYq"/>
