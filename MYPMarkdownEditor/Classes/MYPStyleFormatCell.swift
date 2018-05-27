@@ -8,6 +8,8 @@
 import UIKit
 
 class MYPStyleFormatCell: UITableViewCell {
+    
+    @IBOutlet var headerTitleLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

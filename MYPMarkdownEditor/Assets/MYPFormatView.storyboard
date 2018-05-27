@@ -170,6 +170,9 @@
                                         <constraint firstAttribute="trailing" secondItem="3Uz-fK-DJJ" secondAttribute="trailing" constant="20" id="xGh-Jg-snO"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="headerTitleLabel" destination="tzJ-r4-qcR" id="oDY-Ih-WZG"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="fontStyle" id="Xfk-fa-UWh" customClass="MYPStyleFontStyleCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="148" width="375" height="60"/>
