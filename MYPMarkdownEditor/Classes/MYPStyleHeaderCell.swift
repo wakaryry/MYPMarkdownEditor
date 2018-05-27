@@ -13,9 +13,19 @@ class MYPStyleHeaderCell: UITableViewCell {
     
     weak var delegate: MYPStyleSettingProtocol?
     
+    private var lineLayer: CAShapeLayer = CAShapeLayer()
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        lineLayer.fillColor = UIColor.clear.cgColor
+        lineLayer.strokeColor = UIColor.lightGray.cgColor
+        lineLayer.lineJoin = kCALineJoinRound
+        lineLayer.lineDashPattern = [5, 2]
+        lineLayer.lineWidth = 1.0
+        
+        self.layer.addSublayer(lineLayer)
         
         for button in self.buttons {
             button.addTarget(self, action: #selector(buttonAction(sender:)), for: .touchUpInside)
@@ -53,6 +63,27 @@ class MYPStyleHeaderCell: UITableViewCell {
             }
             self.delegate?.mypMarkdownEditor_didTap(styleType: type, info: nil)
         }
+    }
+    
+    override func draw(_ rect: CGRect) {
+        super.draw(rect)
+        
+        if !self.isSelected {
+            return
+        }
+        
+        var layerFrame = rect
+        layerFrame.origin.x = 20.0
+        layerFrame.origin.y = 60.0
+        layerFrame.size.width = layerFrame.size.width - 20.0 * 2.0
+        layerFrame.size.height = 1.0
+        
+        let path = UIBezierPath()
+        path.move(to: CGPoint(x: 0, y: 0.5))
+        path.addLine(to: CGPoint(x: layerFrame.width, y: 0.5))
+        
+        self.lineLayer.path = path.cgPath
+        lineLayer.frame = layerFrame
     }
 
 }
