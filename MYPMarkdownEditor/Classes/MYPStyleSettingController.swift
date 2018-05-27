@@ -9,7 +9,7 @@ import UIKit
 
 open class MYPStyleSettingController: UITableViewController {
     
-    weak var delegate: MYPStyleSettingProtocol?
+    open weak var delegate: MYPStyleSettingProtocol?
     
     private var selectedIndexPath: IndexPath?
     private var shouldScrollToSelectedRow = false

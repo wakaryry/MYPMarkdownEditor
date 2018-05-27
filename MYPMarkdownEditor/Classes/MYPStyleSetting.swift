@@ -7,7 +7,7 @@
 
 import Foundation
 
-public var MYPStyleSettingControllerInstance = UIStoryboard(name: "MYPFormatView", bundle: MYPEditorResourcesBundle)
+public var MYPStyleSettingControllerInstance = UIStoryboard(name: "MYPFormatView", bundle: MYPEditorResourcesBundle).instantiateViewController(withIdentifier: "styleControllerID") as! MYPStyleSettingController
 
 internal var MYPEditorResourcesBundle: Bundle? {
     // Get path for MYPMessageController bundle
