@@ -10,6 +10,7 @@ import UIKit
 class MYPStyleFormatCell: UITableViewCell {
     
     @IBOutlet var headerTitleLabel: UILabel!
+    @IBOutlet var buttons: [UIButton]!
 
     override func awakeFromNib() {
         super.awakeFromNib()

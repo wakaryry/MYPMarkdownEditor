@@ -13,14 +13,14 @@
         <!--Style Setting Controller-->
         <scene sceneID="kzJ-VB-5vI">
             <objects>
-                <tableViewController storyboardIdentifier="style" id="vUd-pJ-0UN" customClass="MYPStyleSettingController" customModule="MYPMarkdownEditor" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="styleControllerID" id="vUd-pJ-0UN" customClass="MYPStyleSettingController" customModule="MYPMarkdownEditor" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="cmz-S1-OHM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="format" rowHeight="120" id="YPH-aQ-T4k" customClass="MYPStyleFormatCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="formatID" rowHeight="120" id="YPH-aQ-T4k" customClass="MYPStyleFormatCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YPH-aQ-T4k" id="A4I-fd-NAO">
@@ -172,9 +172,15 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="headerTitleLabel" destination="tzJ-r4-qcR" id="oDY-Ih-WZG"/>
+                                    <outletCollection property="buttons" destination="1Tr-O8-IKs" collectionClass="NSMutableArray" id="Aoj-n6-J6s"/>
+                                    <outletCollection property="buttons" destination="SIN-UD-sK9" collectionClass="NSMutableArray" id="jjD-Of-NkT"/>
+                                    <outletCollection property="buttons" destination="6TE-Aq-PqW" collectionClass="NSMutableArray" id="4fE-oZ-jc9"/>
+                                    <outletCollection property="buttons" destination="LD3-ij-cJo" collectionClass="NSMutableArray" id="EgK-xw-6ZG"/>
+                                    <outletCollection property="buttons" destination="D73-kX-Wjr" collectionClass="NSMutableArray" id="9oi-ET-rxw"/>
+                                    <outletCollection property="buttons" destination="QxB-K8-CF5" collectionClass="NSMutableArray" id="PcL-3S-r0a"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="fontStyle" id="Xfk-fa-UWh" customClass="MYPStyleFontStyleCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="fontStyleID" id="Xfk-fa-UWh" customClass="MYPStyleFontStyleCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="148" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xfk-fa-UWh" id="4rZ-dE-as9">
@@ -231,7 +237,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="paragraph" id="Xaf-s4-Euv" customClass="MYPStyleParagraphCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="paragraphID" id="Xaf-s4-Euv" customClass="MYPStyleParagraphCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="208" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xaf-s4-Euv" id="CXd-PT-boy">
@@ -272,7 +278,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="fontSize" rowHeight="120" id="H2G-Am-mdo" customClass="MYPStyleFontSizeCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="fontSizeID" rowHeight="120" id="H2G-Am-mdo" customClass="MYPStyleFontSizeCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="268" width="375" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="H2G-Am-mdo" id="6e0-o0-hxy">
@@ -318,7 +324,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="color" rowHeight="180" id="j4s-oW-hfB" customClass="MYPStyleColorCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="colorID" rowHeight="180" id="j4s-oW-hfB" customClass="MYPStyleColorCell" customModule="MYPMarkdownEditor" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="388" width="375" height="180"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j4s-oW-hfB" id="qEe-R5-XLK">
@@ -381,7 +387,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hmF-ZA-9jv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="732" y="273.91304347826087"/>
+            <point key="canvasLocation" x="471" y="241"/>
         </scene>
     </scenes>
     <resources>
