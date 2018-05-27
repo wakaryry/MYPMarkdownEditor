@@ -36,7 +36,7 @@ open class MYPStyleSettingController: UITableViewController {
 
 extension MYPStyleSettingController: MYPStyleSettingProtocol {
     public func mypMarkdownEditor_didTap(styleType: MYPMarkdownEditorFormattingStyle, info: [String : Any]?) {
-        
+        self.delegate?.mypMarkdownEditor_didTap(styleType: styleType, info: info)
     }
 }
 

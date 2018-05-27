@@ -27,7 +27,7 @@
 		F66A4EC678F4AFC5C89E1911D85E6EA6 /* MYPStyleHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716ADC79DD0D7EC74E05B87C31DF519A /* MYPStyleHeaderCell.swift */; };
 		F887AEE78B7EED208A418C86CF370A58 /* Pods-MYPMarkdownEditor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 210E014094DEDD6B39778C03C6EB5D45 /* Pods-MYPMarkdownEditor_Example-dummy.m */; };
 		F9BA58E97ED4605EC3B17B02360D6897 /* Pods-MYPMarkdownEditor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 808199DCDECDE135EA57C8821A9CD9E7 /* Pods-MYPMarkdownEditor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAC64C48D93949409AE021FBAA393A4D /* MYPStyleSettingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED8E7B3315A3A19E1950BEA1A360D0 /* MYPStyleSettingProtocol.swift */; };
+		FAC64C48D93949409AE021FBAA393A4D /* MYPStyleSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED8E7B3315A3A19E1950BEA1A360D0 /* MYPStyleSetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,7 +95,7 @@
 		C62E14D7BBCEC6E0DF99AA4952D2ABCF /* MYPStyleColorCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MYPStyleColorCell.swift; path = MYPMarkdownEditor/Classes/MYPStyleColorCell.swift; sourceTree = "<group>"; };
 		CEEA8866CC6B5978AB822461D2038425 /* Pods-MYPMarkdownEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdownEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF394B3B1D574D168D8795F55DDD3596 /* Pods-MYPMarkdownEditor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYPMarkdownEditor_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E9ED8E7B3315A3A19E1950BEA1A360D0 /* MYPStyleSettingProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MYPStyleSettingProtocol.swift; path = MYPMarkdownEditor/Classes/MYPStyleSettingProtocol.swift; sourceTree = "<group>"; };
+		E9ED8E7B3315A3A19E1950BEA1A360D0 /* MYPStyleSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MYPStyleSetting.swift; path = MYPMarkdownEditor/Classes/MYPStyleSetting.swift; sourceTree = "<group>"; };
 		EA26800524226C8ADA11F57932335EB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB0A411D85F97D2C74A21E0B3637CAD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDC24B0A390981A4F17DFC427914C8E3 /* MYPMarkdownEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYPMarkdownEditor-umbrella.h"; sourceTree = "<group>"; };
@@ -257,7 +257,7 @@
 				716ADC79DD0D7EC74E05B87C31DF519A /* MYPStyleHeaderCell.swift */,
 				29035DB4F58F291B083D9395E6F280D0 /* MYPStyleParagraphCell.swift */,
 				4115F7DF8480A95AF9082395219CA6C5 /* MYPStyleSettingController.swift */,
-				E9ED8E7B3315A3A19E1950BEA1A360D0 /* MYPStyleSettingProtocol.swift */,
+				E9ED8E7B3315A3A19E1950BEA1A360D0 /* MYPStyleSetting.swift */,
 				093B3E0BF0587EE5177C83F6E25BC75C /* Pod */,
 				25C8685AE33488280ED15761D417BF05 /* Resources */,
 				6D2D9C527B36AE0080E4F4717E18F410 /* Support Files */,
@@ -449,7 +449,7 @@
 				F66A4EC678F4AFC5C89E1911D85E6EA6 /* MYPStyleHeaderCell.swift in Sources */,
 				43E93166BD14C31F457913CA8EE0913B /* MYPStyleParagraphCell.swift in Sources */,
 				D111BF1B326F0154FEE1D0A7526C8EB1 /* MYPStyleSettingController.swift in Sources */,
-				FAC64C48D93949409AE021FBAA393A4D /* MYPStyleSettingProtocol.swift in Sources */,
+				FAC64C48D93949409AE021FBAA393A4D /* MYPStyleSetting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
