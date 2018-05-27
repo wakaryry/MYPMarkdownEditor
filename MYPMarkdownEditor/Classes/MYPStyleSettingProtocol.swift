@@ -32,6 +32,6 @@ public enum MYPMarkdownEditorFormattingStyle: Int {
     case voice
 }
 
-public protocol MYPStyleSettingProtocol {
-    func mypMarkdownEditor_didTap(styleType: MYPMarkdownEditorFormattingStyle)
+public protocol MYPStyleSettingProtocol: class {
+    func mypMarkdownEditor_didTap(styleType: MYPMarkdownEditorFormattingStyle, info: String?)
 }
