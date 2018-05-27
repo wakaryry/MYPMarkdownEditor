@@ -1,0 +1,6 @@
+framework module Pods_MYPMarkdownEditor_Tests {
+  umbrella header "Pods-MYPMarkdownEditor_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
