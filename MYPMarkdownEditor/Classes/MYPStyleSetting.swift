@@ -7,6 +7,22 @@
 
 import Foundation
 
+public var MYPStyleSettingControllerInstance = UIStoryboard(name: "MYPFormatView", bundle: MYPEditorResourcesBundle)
+
+internal var MYPEditorResourcesBundle: Bundle? {
+    // Get path for MYPMessageController bundle
+    let bundlePath = Bundle(for: MYPStyleSettingController.self).path(forResource: "MYPMarkdownEditor", ofType: "bundle")
+    let bundle: Bundle?
+    
+    // Load bundle
+    if let bundlePath = bundlePath {
+        bundle = Bundle(path: bundlePath)
+    } else {
+        bundle = nil
+    }
+    return bundle
+}
+
 public enum MYPMarkdownEditorFormattingStyle: Int {
     case bold = 1
     case italic
