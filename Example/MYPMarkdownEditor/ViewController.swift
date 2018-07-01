@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var button: UIButton!
+    var contentInputAccessoryView: MYPSegmentedControl?
     
     var settingController: MYPStyleSettingController!
     
